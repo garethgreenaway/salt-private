@@ -1474,7 +1474,7 @@ def generate_random_name(prefix, size=6):
 
     .. versionadded:: 2018.3.0
 
-    prefix
+    efix
         The string to prefix onto the randomly generated ascii string.
 
     size
@@ -1613,7 +1613,7 @@ class Webserver(object):
 
 class SaveRequestsPostHandler(tornado.web.RequestHandler):
     '''
-    Mirror a POST body back to the client
+    Mirror a POST body back to the client.
     '''
     received_requests = []
 
